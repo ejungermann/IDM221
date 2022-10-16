@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    src: url(fonts/montserrat-regular-webfont.woff2);
+}
+@font-face {
+    font-family: 'MontserratBold';
+    font-style: bold;
+    src: url(fonts/montserrat-bold-webfont.woff2);
+}
+
+html {
+    background-color: #FAF2ED;
+    color: #3B3938;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+footer p {
+    font-size: 10px;
+}
