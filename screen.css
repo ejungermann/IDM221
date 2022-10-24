@@ -9,21 +9,77 @@
     src: url(fonts/montserrat-bold-webfont.woff2);
 }
 
+:root {
+    --color-text-main: #3B3938;
+    --color-background-main: #FAF2ED;
+}
+
 html {
-    background-color: #FAF2ED;
-    color: #3B3938;
+    background-color: var(--color-background-main);
+    color: var(--color-text-main);
     font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 60px;
+}
+
+body section {
+    margin: 0 20px;
+}
+
+section section {
+    margin: 120px 0 0 0;
 }
 
 h1 {
     font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
-    font-size: 36px;
+    font-size: 800%;
+    text-align: center;
+}
+
+h2 {
+    font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 400%;
+}
+
+h3 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+
+h5 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 150%;    
+}
+
+h6 {
+        font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
+        font-size: 100%;    
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    font-size: 300%;
+    text-align: center;
+    padding: 20px;
+    border: 4px solid #3B3938;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 100%;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 45px;
+    margin: 40px 0;
+}
+
+li {
+    margin: 0 0 30px 0;
 }
 
 footer p {
