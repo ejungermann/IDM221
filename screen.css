@@ -14,7 +14,6 @@
     src: url(fonts/montserratalternates-italic-webfont.woff2);
 }
 
-
 :root {
     --color-text-main: #3B3938;
     --color-background-main: #FAF2ED;
@@ -27,107 +26,58 @@ html {
 }
 
 body {
-    margin: 60px;
+    margin: 30px;
 }
 
-body section, body div {
-    margin: 0 20px;
-}
-
-section section {
-    margin: 120px 0 0 0;
-}
-
-/* HEADINGS */
-
-h1, h2, h3, h5, h6, div.project a {
+h1, h2 {
     font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 800%;
+    font-size: 300%;
     text-align: center;
 }
 
 h2 {
-    font-size: 400%;
-}
-
-h3, div.project a {
-    font-size: 250%;
-}
-
-h5 {
-    font-size: 150%;    
-}
-
-h6 {
-    font-size: 95%
+    font-size: 180%;
 }
 
 p {
     font-size: 100%;
-    /* font-style: normal; */
-    letter-spacing: 1px;
-    line-height: 45px;
-    margin: 40px 0;
+    letter-spacing: .55px;
+    line-height: 25px;
 }
 
-li {
-    margin: 0 0 30px 0;
-    letter-spacing: 1px;
-    line-height: 45px;
+/* HEADER, NAVIGATION */
+header {
+    margin: 60px 0 65px 0;
 }
-
-.italic {
-    font-family: MontserratItalic, Montserrat, Arial, Helvetica, sans-serif;
-}
-
-footer p {
-    font-size: 60%;
-}
-
-/* NAVIGATION */
 
 nav ul{
-    /* text-align: center; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     padding: 0;
-    list-style-type: none;
+    list-style-type: none;  
 }
 
 nav a {
-    font-size: 300%;
-    /* text-align: center; */
-    padding: 20px;
-    border: 4px solid #3B3938;
-    border-radius: 10px;
-    margin: 20px;
+    font-size: 115%;
+    padding: 12px;
+    border: 1.5px solid #3B3938;
+    border-radius: 3px;
+}
+/* ^ HEADER, NAVIGATION */
+
+/* HOME IMG WITH TEXT OVER */
+h2.absolute {
+    position: absolute;
+    right: 30px;
+    top: 390px;
 }
 
-nav li {
-    list-style: none;
+footer p {
+    font-size: 60%;
+    text-align: right;
 }
-
-/* PROJECTS */
-
-div.project {
-    margin: 70px 0;
-}
-
-div.project figure {
-    margin: 20px 0;
-}
-div.project p {
-    font-size: 180%;
-    margin: 11px 0 0 0;
-}
-
-/* div.project {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-} */
