@@ -13,36 +13,32 @@
     font-style: italic;
     src: url(fonts/montserratalternates-italic-webfont.woff2);
 }
-
 :root {
     --color-text-main: #3B3938;
     --color-background-main: #FAF2ED;
 }
-
 html {
     background-color: var(--color-background-main);
     color: var(--color-text-main);
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
-
 body {
     margin: 30px;
 }
-
-h1, h2 {
+h1, h2, h3 {
     font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
 }
-
 h1 {
-    font-size: 300%;
+    font-size: 350%;
     text-align: center;
 }
-
 h2 {
     font-size: 180%;
 }
-
-p {
+h3 {
+    margin: 40px 0 12px 0;
+}
+p, li {
     font-size: 100%;
     letter-spacing: .55px;
     line-height: 25px;
@@ -50,9 +46,8 @@ p {
 
 /* HEADER, NAVIGATION */
 header {
-    margin: 60px 0 65px 0;
+    margin: 50px 0 60px 0;
 }
-
 nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +56,6 @@ nav ul{
     padding: 0;
     list-style-type: none;  
 }
-
 nav a {
     font-size: 115%;
     padding: 12px;
@@ -70,12 +64,78 @@ nav a {
 }
 /* ^ HEADER, NAVIGATION */
 
-/* HOME IMG WITH TEXT OVER */
+/* IMG WITH TEXT OVER */
 h2.absolute {
     position: absolute;
     right: 30px;
-    top: 390px;
+    top: 395px;
 }
+h2.absolutehigh {
+    position: absolute;
+    right: 30px;
+    top: 260px; 
+}
+/* RESUME */
+p.resumename {
+    font-size: 150%;
+}
+p.resume, p.resumeitalic {
+    margin: 0px 0 8px 0;
+}
+p.resumeitalic, p.italic {
+    font-family: MontserratItalic, Montserrat, Arial, Helvetica, sans-serif;
+}
+ul.resume li {
+    margin: 0 0 12px 0;
+}
+/* ^ RESUME */
+
+/* PROJECTS */
+div.projects {
+    margin: 30px 0 40px 0;
+}
+div.projects p {
+    /* font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif; */
+    font-size: 120%;
+    margin: 10px 0 0 0;
+    /* position: absolute;
+    right: 30px;
+    top: 495px; */
+}   
+/* ^ PROJECTS */
+
+/* SKETCHBOOK */
+div.imagecollection {
+    display:flex;
+    flex-direction: column;    
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center    
+}
+div.imagecollection p {
+    margin: 6px  0 0 0;
+}
+div.imagecollection img {
+    margin: 40px 0 0 0;
+}
+.boldproject {
+    font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+/* ^ SKETCHBOOK */
+
+/* INDIVIDUAL PROJECT */
+div.indvproject img {
+    margin: 0 0 15px 0;
+}
+div.indvproject p {
+    margin: 0 0 4px 0;
+}
+div.introparagraph {
+    margin: 50px 0 50px 0;
+}
+/* ^ INDIVIDUAL PROJECT */
 
 footer p {
     font-size: 60%;
