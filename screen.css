@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'MontserratBold';
-    font-style: bold;
+    font-weight: bold;
     src: url(fonts/montserrat-bold-webfont.woff2);
 }
 @font-face {
@@ -136,6 +136,7 @@ figure.imagecollection {
 }
 figure.imagecollection p {
     margin: 6px  0 0 0;
+    text-align: center;
 }
 figure.imagecollection img {
     margin: 40px 0 0 0;
@@ -144,9 +145,6 @@ figure.imagecollection img {
     font-family: MontserratBold, Montserrat, Arial, Helvetica, sans-serif;
     font-size: 120%;
 }
-/* figure.imagecollection img {
-
-} */
 /* ^ SKETCHBOOK */
 
 /* INDIVIDUAL PROJECT */
